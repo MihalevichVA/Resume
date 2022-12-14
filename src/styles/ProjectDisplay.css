@@ -26,3 +26,26 @@
   font-size: 60px;
   color: #3e497a;
 }
+
+@media only screen and (max-width: 1300px) {
+  .project img {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .project img {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .project img {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .project img {
+    width: 250px;
+  }
+}

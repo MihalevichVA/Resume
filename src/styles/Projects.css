@@ -55,11 +55,19 @@
   .projectList {
     grid-template-columns: 1fr 1fr;
   }
+  .projectItem {
+    width: 500px;
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
   .projectList {
     grid-template-columns: 1fr;
+  }
+  .projectItem {
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -70,5 +78,12 @@
   .projectItem {
     width: 300px;
     height: 300px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .projectItem {
+    width: 250px;
+    height: 250px;
   }
 }
