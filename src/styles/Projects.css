@@ -83,7 +83,7 @@
 
 @media only screen and (min-width: 600px) {
   .projectItem {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
   }
 }
