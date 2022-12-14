@@ -56,12 +56,22 @@
     grid-template-columns: 1fr 1fr;
   }
   .projectItem {
-    width: 500px;
+    width: 400px;
     height: 300px;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
+  .projectList {
+    grid-template-columns: 1fr 1fr;
+  }
+  .projectItem {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
   .projectList {
     grid-template-columns: 1fr;
   }
@@ -77,13 +87,6 @@
   }
   .projectItem {
     width: 300px;
-    height: 300px;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .projectItem {
-    width: 400px;
     height: 300px;
   }
 }

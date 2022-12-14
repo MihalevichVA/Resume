@@ -33,19 +33,14 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .project img {
-    width: 350px;
+    width: 450px;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .project img {
     width: 300px;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .project img {
-    width: 400px;
   }
 }
